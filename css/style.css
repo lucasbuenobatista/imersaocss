@@ -1,0 +1,35 @@
+body{
+  background-image: url("https://www.ufrgs.br/setorsuinos/wp-content/uploads/2019/07/fundo-azul-degrade-2.jpg");
+  background-size: auto 400vh;
+  font-family: Arial;
+  height: 100vh;
+  
+}
+
+.menu {
+  background: white;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.site-subtitle,.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
