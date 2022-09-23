@@ -5,6 +5,8 @@ body{
   background-size: auto 400vh;
   font-family: Arial;
   height: 100vh;
+  min-width: 375px;
+  max-width: 1000px;
   
 }
 
@@ -43,4 +45,21 @@ a:hover {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+#imglucas{
+    border-radius: 1000px;
+    box-shadow: 5px 5px 1000px rgb(14, 14, 14);
+    backdrop-filter: unset;
+    margin: auto; /*CENTRALIZAR A DIV*/
+    height: 150px;
+    width: 150px;
+  
+}
+#lucas{
+  border-radius: 1000px;
+    box-shadow: 5px 5px 1000px rgb(14, 14, 14);
+    backdrop-filter: unset;
+    margin: auto; /*CENTRALIZAR A DIV*/
+    height: 150px;
+    width: 150px;
 }
