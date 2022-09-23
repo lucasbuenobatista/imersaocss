@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Mrs+Saint+Delafield&family=Nanum+Gothic+Coding&display=swap');
+
 body{
   background-image: url("https://www.ufrgs.br/setorsuinos/wp-content/uploads/2019/07/fundo-azul-degrade-2.jpg");
   background-size: auto 400vh;
@@ -32,4 +34,13 @@ a:hover {
 .site-subtitle,.site-title {
   color: whitesmoke;
   text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
